@@ -16,28 +16,21 @@ This project implements a simple real-time chat application using TCP in C. The 
 
 ## Getting Started
 
-### 1. Clone the Repository
-`git clone https://github.com/your-username/chat-application.git
-cd chat-application`
 
-
-### 2. To Run the Code 
+### 21. To Run the Code 
 Compile the Server and Client
 To compile the server and client, use the following commands:
 
 `gcc -o server server.c -lpthread`
 `gcc -o client client.c -lpthread`
 
-### 3. 3. Run the Server
+### 2. Run the Server
 In one terminal, start the server:
 `./server`
 The server will start listening on port 8080 by default.
 
-### 4. Run the Clients
-In one or more additional terminals, start the clients:
-
-`./client`
-
+### 3. Run the Clients
+In one or more additional terminals, start the clients:`./client`
 Each client will connect to the server and be able to send and receive messages.
 
 
