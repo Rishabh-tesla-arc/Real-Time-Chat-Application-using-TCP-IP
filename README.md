@@ -17,7 +17,7 @@ This project implements a simple real-time chat application using TCP in C. The 
 ## Getting Started
 
 
-### 21. To Run the Code 
+### 1. To Run the Code 
 Compile the Server and Client
 To compile the server and client, use the following commands:
 
